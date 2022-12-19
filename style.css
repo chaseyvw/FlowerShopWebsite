@@ -1,0 +1,94 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #7A5C61;
+}
+
+.body_container {
+    background-color: white;
+    color: black;
+    max-width: 80%;
+    margin-top: 0;
+    margin-bottom: 100px;
+    margin: auto;
+    text-align: center;
+    padding: 30px 10px;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+}
+
+header {
+    background-color: black;
+    color: white;
+    padding-right: 10%;
+    padding-bottom: 20px;
+    text-align: right;
+    position:-webkit-sticky;
+}
+
+header nav a{
+    margin: 0 20px;
+}
+
+header .material-symbols-outlined {
+    font-size: xx-large;
+    transform: translate(0px, 10px);
+}
+
+.banner_container {
+    position: relative;
+    margin-bottom: 10%;
+}
+
+.banner_slogan {
+    position: absolute;
+    top: 35%;
+    right: 20%;
+}
+
+.banner_slogan button {
+    background-color: #0D1321;
+    border: 0;
+    border-radius: 10px;
+    color: white;
+    padding: 12px 20px;
+    font-size: 1.3vw;
+}
+
+.seasonalflowers_container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.flower_card {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    border-radius: 30px;
+    width: 25%;
+    margin: 0 20px;
+    padding: 7px;
+    /* border-radius: 33px;
+    border: 2px solid #7A5C61; */
+}
+
+.flower_card:hover {
+    box-shadow: 3px 3px 3px lightgrey;
+    transition: 0.5s;
+}
+
+.flower_card p {
+    padding: 20px;
+    transform: translateY(-4vh);
+}
+
+.flower_card .material-symbols-outlined {
+    position: absolute;
+    transform: translate(50%, 50%);
+}
