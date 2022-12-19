@@ -4,6 +4,10 @@
 <!-- FONTS & ICONS-->
         <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
 
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter&family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+
 <!-- INITIAL SETUP -->
         <meta charset="UTF-8">
         <link reL="stylesheet" href="style.css">
@@ -12,8 +16,8 @@
         <header>
             <nav>
                 <a src="">Home</a>
-                <a src="">Contact</a>
                 <a src="">Gallery</a>
+                <a src="">Contact</a>
                 <a><span class="material-symbols-outlined">
                     account_circle
                 </span></a>
@@ -21,7 +25,7 @@
         </header>
         <div class="body_container">
             <img style="width:40%; margin-bottom:20px;" src="Images/FlowerLogo.png">
-            <div class="banner_container">
+            <div class="banner_container" id="bannerContainer">
                 <img style="width:90%; border-radius:40px;" src="Images/BannerImage3.png">
                 <div class="banner_slogan">
                     <h2 style="text-align:center; font-size: 3vw;">A flower for<br>every occassion.</h2>
@@ -29,7 +33,7 @@
                 </div>
             </div>
             <h1>Seasonal Favorites</h1>
-            <div class="seasonalflowers_container">
+            <div class="seasonalflowers_container" id="seasonalFavorites">
                 <div class="flower_card">
                     <img style="border-radius:30px;" src="Images/Orchid_Image.png">
                     <h2>Orchid</h2>
@@ -61,6 +65,24 @@
                         </span>               
                 </div>
             </div>
+            <div class="contact_container">
+                <h1>Have Questions?</h1>
+                <h4>Feel free to contact us with any questions!</h4>
+                <div class="contact_form">
+                    <input style="width:35%; margin-right:2%;" type="text" placeholder="Full Name">
+                    <input style="width:35%;" type="email" placeholder="Email"><br><br>
+                    <input style="width:80%;" type="text" placeholder="Message">
+                </div>
+                <button>Send</button>
+            </div>
         </div>
+        <footer>
+            <p>Check us out on socials!</p>
+            <img src="Images/2.png"> <!--INSTA-->
+            <img src="Images/3.png"> <!--TWITTER-->
+            <img src="Images/1.png"> <!--FACEBOOK-->
+            <img src="Images/4.png"> <!--YOUTUBE-->
+            <p style="font-size:10px;">© 2023 Frankie's Flowers.</p>
+        </footer>
     </body>
 </html>

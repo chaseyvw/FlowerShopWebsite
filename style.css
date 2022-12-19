@@ -6,6 +6,7 @@ body {
     margin: 0;
     padding: 0;
     background-color: #7A5C61;
+    font-family: 'Open Sans';
 }
 
 .body_container {
@@ -30,8 +31,13 @@ header {
     position:-webkit-sticky;
 }
 
-header nav a{
+header nav a {
     margin: 0 20px;
+}
+
+header nav a:hover {
+    font-weight: bold;
+    transition: 9ms;
 }
 
 header .material-symbols-outlined {
@@ -57,6 +63,13 @@ header .material-symbols-outlined {
     color: white;
     padding: 12px 20px;
     font-size: 1.3vw;
+    font-family: 'Open Sans';
+    transition: 0.5s;
+}
+
+.banner_slogan button:hover {
+    background-color: orange;
+    transition: 0.5s;
 }
 
 .seasonalflowers_container {
@@ -91,4 +104,50 @@ header .material-symbols-outlined {
 .flower_card .material-symbols-outlined {
     position: absolute;
     transform: translate(50%, 50%);
+}
+
+.contact_container {
+    margin: 70px 20%;
+    align-items: center;
+}
+
+.contact_form {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.contact_form input {
+    padding: 10px 20px;
+    border: 2px solid #7A5C61; 
+}
+
+.contact_container button{
+    background-color: #0D1321;
+    border: 0;
+    border-radius: 10px;
+    color: white;
+    padding: 12px 20px;
+    margin-top: 20px;
+    font-family: 'Open Sans';
+    transition: 0.5s;
+}
+
+.contact_container button:hover {
+    background-color: orange;
+    transition: 0.5s;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    font-family: 'Open Sans';
+    padding: 10px 0;
+    text-align: center;
+    margin-top: 60px;
+}
+
+footer img {
+    width: 50px;
+    margin: 0 5px;
 }
