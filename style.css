@@ -33,6 +33,8 @@ header {
 
 header nav a {
     margin: 0 20px;
+    text-decoration: none;
+    color: white;
 }
 
 header nav a:hover {
@@ -150,4 +152,44 @@ footer {
 footer img {
     width: 50px;
     margin: 0 5px;
+}
+
+.gallery_container {
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    overflow: hidden;
+    justify-content: center;
+    border: 2px solid red;
+    width: 80%;
+    margin: auto;
+}
+
+.gallery_card {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    margin: 70px 50px;
+}
+
+.gallery_card img {
+    border-radius: 40px;
+}
+
+#rightgalleryarrow {
+    position: absolute; 
+    transform: translate(0, -800%); 
+    right: 0;
+    padding-right: 15%;
+    color: black; 
+    font-size: 50px;
+}
+
+#leftgalleryarrow {
+    position: absolute; 
+    transform: translate(0, -800%); 
+    left: 0;
+    padding-left: 15%;
+    color: black; 
+    font-size: 50px;
 }
