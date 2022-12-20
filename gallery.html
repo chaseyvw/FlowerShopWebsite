@@ -13,6 +13,7 @@
 <!-- INITIAL SETUP -->
         <meta charset="UTF-8">
         <link reL="stylesheet" href="style.css">
+        <script src="script.js" type="text/javascript"></script>
     </head>
     <body>
         <header>
@@ -27,38 +28,40 @@
         </header>
         <div class="body_container">
             <h1>Take a look at our fresh bouquets.</h1>
-            <div class="gallery_container">
-                <div class="gallery_card">
-                    <img src="Images/Flower1.png">
-                    <h3>Blush & Neutrals</h3>
-                </div>
-                <div class="gallery_card">
-                    <img src="Images/Flower2.png">
-                    <h3>The Classics</h3>
-                </div>
-                <div class="gallery_card">
-                    <img src="Images/Flower3.png">
-                    <h3>Purple & Pink Delight</h3>
-                </div>
-                <div class="gallery_card">
-                    <img src="Images/Flower4.png">
-                    <h3>The Pastel Pairs</h3>
-                </div>
-                <div class="gallery_card">
-                    <img src="Images/Flower5.png">
-                    <h3>Pinky Pie</h3>
-                </div>
-                <div class="gallery_card">
-                    <img src="Images/Flower7.png">
-                    <h3>Summer Fun</h3>
+            <div class="gallery_container" id="galleryContainer">
+                <div class="gallery_cards_container" id="galleryCardsContainer">
+                    <div class="gallery_card">
+                        <img src="Images/Flower1.png">
+                        <h3>Blush & Neutrals</h3>
+                    </div>
+                    <div class="gallery_card">
+                        <img src="Images/Flower2.png">
+                        <h3>The Classics</h3>
+                    </div>
+                    <div class="gallery_card">
+                        <img src="Images/Flower3.png">
+                        <h3>Purple & Pink Delight</h3>
+                    </div>
+                    <div class="gallery_card">
+                        <img src="Images/Flower4.png">
+                        <h3>The Pastel Pairs</h3>
+                    </div>
+                    <div class="gallery_card">
+                        <img src="Images/Flower5.png">
+                        <h3>Pinky Pie</h3>
+                    </div>
+                    <div class="gallery_card">
+                        <img src="Images/Flower7.png">
+                        <h3>Summer Fun</h3>
+                    </div>
                 </div>
             </div>
-            <span id="rightgalleryarrow" class="material-symbols-outlined">
+            <a><span id="rightGalleryArrow" class="material-symbols-outlined">
                 arrow_circle_right
-            </span>
-            <span id="leftgalleryarrow" class="material-symbols-outlined">
+            </span></a>
+            <a><span id="leftGalleryArrow" class="material-symbols-outlined">
                 arrow_circle_left
-            </span>
+            </span></a>
         </div>
         <footer>
             <p>Check us out on socials!</p>
