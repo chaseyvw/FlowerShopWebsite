@@ -21,12 +21,20 @@ $(document).ready(function(){
     var galleryCardWidth = $(".gallery_card").width();
 
     $("#rightGalleryArrow").click(function(){
-        $("#galleryCardsContainer").animate({left: '-500px'});
+        
+        $("#galleryCardsContainer").animate({left: '-=600px'});
         
     });
 
     $("#leftGalleryArrow").click(function(){
-        $("#galleryCardsContainer").animate({left: '500px'});
+        if ($("#firstGalleryCard").position({left:''}  ) -= {left: -600}) {
+            $("#galleryCardsContainer").animate(stop);
+        } else {
+            $("#galleryCardsContainer").animate({left: '+=600px'});
+        }
+        
+        //var firstX = $("#galleryCardsContainer").position('');
+        //console.log(firstX);
     });
-
+ 
 });
